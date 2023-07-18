@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=Montserrat:wght@700&family=Nunito&family=Poppins:wght@400;900&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/simpler');
+@font-face {
+    font-family: 'Funruehl';
+    src: url('https://files.catbox.moe/9hwqef.ttf') format('ttf'),;
+    src: url('https://files.catbox.moe/z2mmgi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --shadow: #221f1f;
+    --main-color: #66c2a3;
+    --second-color: #0b8d78;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* header - navbar */
+header {
+    margin: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-left: 4vh;
+    letter-spacing: -.8px;
+}
+
+#FUNRUEHL {
+    color: #f42dd4;
+}
+
+.navbar a:hover {
+    color: #2dd4f4;
+}
+
+/******************** introduction : START ********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: none; */
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+hr {
+    height:1px;
+    border-width:0;
+    color: var(--shadow);
+    background-color: var(--shadow);
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Funruehl', 'Simpler';
+}
+
+.alef {
+    display: flex;
+    flex-direction: column;
+}
+
+.self-alef{
+    display: inline-flex;
+    font-size: 99vh;
+    text-align: center;
+    color: #66c2a3;
+    text-shadow:
+    2vh 2vh         var(--shadow),
+    1.9vh 1.9vh     var(--shadow),
+    1.8vh 1.8vh     var(--shadow),
+    1.7vh 1.7vh     var(--shadow),
+    1.6vh 1.6vh     var(--shadow),
+    1.5vh 1.5vh     var(--shadow),
+    1.4vh 1.4vh     var(--shadow),
+    1.3vh 1.3vh     var(--shadow),
+    1.2vh 1.2vh     var(--shadow),
+    1.1vh 1.1vh     var(--shadow),
+    1vh 1vh         var(--shadow),
+    0.9vh 0.9vh     var(--shadow),
+    0.8vh 0.8vh     var(--shadow),
+    0.7vh 0.7vh     var(--shadow),
+    0.6vh 0.6vh     var(--shadow),
+    0.5vh 0.5vh     var(--shadow),
+    0.4vh 0.4vh     var(--shadow),
+    0.3vh 0.3vh     var(--shadow),
+    0.2vh 0.2vh     var(--shadow),
+    0.1vh 0.1vh     var(--shadow);
+    -webkit-text-stroke: 2px var(--shadow);
+    -webkit-text-stroke-width: 2px;
+
+}
+
+.creator {
+    font-size: 2vh;
+    text-align: center;
+    font-family: 'Simpler', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--main-color);
+    position: relative;
+    bottom: 12vh;
+}
+
+.present {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: var(--shadow);
+}
+
+.present-title {
+    font-size: 30vh;
+    line-height: 18vh;
+    letter-spacing: -2.1vh;
+}
+
+.present-letters {
+    font-size: 10vh;
+    letter-spacing: -.4vh;
+    margin-top: 10vh;
+
+}
+
+
+/******************** introduction : END ********************/
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/******************** actions : START ********************/
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.action-text {
+    font-size: 3vh;
+    font-family: 'Simpler', sans-serif;
+    letter-spacing: 0.5px;
+    color: var(--shadow);
+    margin: 6vh 0 2vh 0;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-example{
+    width: 45vh;
+    height: 65vh;
+    margin: 3vh 2vh 14vh 2vh;
+}
+
+
+/******************** actions : END ********************/
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/******************** purchase : START ********************/
+.purchase{
+    
+}
+.buy-me {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vh;
+}
+
+
+.buy-me-title {
+    text-align: right;
+    font-size: 22vh;
+    line-height: 18vh;
+    letter-spacing: -2.1vh;
+    direction: rtl;
+    font-family: 'Funruehl', 'Simpler';
+    color: var(--second-color);
+}
+
+
+.purchase-details {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.license-type, .price{
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    font-size: 3vh;
+    font-family: 'Simpler', sans-serif;
+    letter-spacing: 0.5px;
+    color: var(--shadow);
+    flex-basis: 25vh;
+}
+
+.price {
+    flex-basis: 10vh;
+    width: 10vh;
+}
+
+.license-type-hr, .price-hr {
+    height:1px;
+    border-width:0;
+    color:var(--main-color);
+    background-color:var(--main-color);
+    max-width: 20.7vh;
+}
+
+.price-hr {
+    max-width: 6vh;
+}
+
+#license-type-dropdown-icon {
+    text-align: center;
+}
+
+
+.purchase-btn {
+    cursor: pointer;
+    width: 30vh;
+    height: 7vh;
+    font-family: 'Simpler', sans-serif;
+    color: var(--shadow);
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: var(--main-color);
+    box-shadow: 
+        1.3vh 1.3vh var(--shadow),
+        1.2vh 1.2vh var(--shadow),
+        1.1vh 1.1vh var(--shadow),
+        1vh 1vh var(--shadow),
+        0.9vh 0.9vh var(--shadow),
+        0.8vh 0.8vh var(--shadow),
+        0.7vh 0.7vh var(--shadow),
+        0.6vh 0.6vh var(--shadow),
+        0.5vh 0.5vh var(--shadow),
+        0.4vh 0.4vh var(--shadow),
+        0.3vh 0.3vh var(--shadow),
+        0.2vh 0.2vh var(--shadow),
+        0.1vh 0.1vh var(--shadow);
+}
+
+.purchase-btn:hover{
+    color: white;
+}
+.purchase-btn:active {
+    border: 2px solid var(--shadow);
+    background-color: var(--second-color);
+}
+
+
+.license-type-options, .price-options{
+    text-align: center;
+    display: none;
+    margin-top: 3vh;
+    padding: 1.4vh;
+    border: 1px solid var(--main-color);
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.price-options {
+    width: 14vh;
+}
+
+.license-type-options > li {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.license-type-options > li:hover {
+    color: var(--second-color);
+}
+
+
+/******************** purchase : END ********************/
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
+
+/******************** footer ********************/
+
+footer {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+
+footer a > svg {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: .6vh;
+    margin-right: 5px;
+}
+
+footer a {
+    font-size: 1rem;
+    padding-right: 8px;
+    line-height: 1;
+    color: #3a3a3a;
+    background: transparent;
+    vertical-align: middle;
+    transition: all 0.01s;
+    margin-right: 6px;
+    margin-left: 6px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .7px;
+}
