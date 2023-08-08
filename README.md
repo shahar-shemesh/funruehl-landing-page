@@ -17,6 +17,4 @@ Contributions to the FontLand Landing Page project are welcomed and encouraged! 
 
 ## Contact
 
-For any inquiries or questions regarding the Funruehl Landing Page project, please contact Shahar Shemesh at [shahar@usa.com].
-
-Thank you for your interest in this project. Hope that the FontLand Landing Page will effectively showcase your new font, attract potential users, and contribute to its success. Happy coding!
+For any inquiries or questions regarding the Funruehl Landing Page project, please contact me at [shahar@usa.com].
