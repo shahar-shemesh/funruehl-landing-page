@@ -1,7 +1,7 @@
 
 # Funruehl-font Landing page
 
-The example below showcases the designer's UX/UI prototype for the FontLand font. The original prototype was created in PDF format. However, to make it accessible and interactive on the web, we have transformed it into a live web page using HTML and CSS.
+The example below showcases the designer's UX/UI prototype for the FontLand font. The original prototype was created in PDF format. However, to make it accessible and interactive on the web, I have transformed it into a live web page using HTML and CSS.
 
 The PDF file below: (png converted, from which the landing page was created)
 ![FontLand Example](https://files.catbox.moe/hjmntg.png)
